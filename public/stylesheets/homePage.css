@@ -1,0 +1,19 @@
+#jumbotronWords {
+    text-align: center;
+    width: 100%;
+}
+
+#jumbotronCampLogo {
+    width: 7%;
+    margin-right: 0px;
+}
+
+#goCampingWord {
+    margin-left: 0px;
+}
+
+#btnAddCampground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

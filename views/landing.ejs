@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GoCamping</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/stylesheets/landing.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript" async></script>
+    </head>
+    <body>
+    
+    <div class="container">
+        <% if(error && error.length > 0){ %>
+            <div class="alert alert-danger" role="alert">
+                <%= error %>
+            </div>
+        <% } %>
+        <% if(success && success.length > 0){ %>
+            <div class="alert alert-success" role="alert">
+                <%= success %>
+            </div>
+        <% } %>
+    </div>
+    
+    <div id="landing-header">
+ 		<h1>Welcome to GoCamping!</h1>
+		<a href="/campgrounds" class="btn btn-lg btn-success">View All Campgrounds</a>
+		<h1>By Abhishek Kolakkal</h1>
+    </div>
+    
+    <ul class="slideshow">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    
+    <div id="landing-footer">
+    <p>
+        <strong>DISCLAIMER</strong>
+    </p>
+    <p>
+        This Site is Only Made for the sake of demonstrating what I learnt from the course on
+        <a href="https://www.udemy.com/the-web-developer-bootcamp/">Udemy</a>.
+        Images used in this site are taken from <a href="https://unsplash.com/">unsplash.com</a> 
+    </p>
+    <p>
+        This site made using
+        <ul>
+            <li>HTML5, CSS, JavaScript & Bootstrap 3.3.7 For Front-End</li>
+            <li>Node.js as Back-End</li>
+            <li>MongoDB as Database</li>
+        </ul>
+    </p>
+    
+    <p>For Concerns & Queries contact on kolakkalabhishek6@gmail.com</p>
+    </div>
+

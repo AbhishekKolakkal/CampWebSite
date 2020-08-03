@@ -20,10 +20,6 @@ var mongoose = require("mongoose");
 mongoose.connect("mongodb://localhost:27017/camp_site", {
   useNewUrlParser: true,
 });
-// mongoose.connect(
-//   "mongodb://abhishek:pass123@ds133262.mlab.com:33262/go_camping",
-//   { useNewUrlParser: true }
-// );
 
 var passport = require("passport");
 var LocalStrategy = require("passport-local");
